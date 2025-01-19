@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dotazník - Predĺžený víkend</title>
+</head>
+<body>
+    <h1>Dotazník - Predĺžený víkend</h1>
+    <form action="https://example.com/submit" method="POST">
+
+        <!-- Otázka 1 -->
+        <h2>1. Aký je tvoj cieľ stretnutia?</h2>
+        <p>Označ prioritne svoje preferencie číslami od 1 (najdôležitejšie) po 5 (najmenej dôležité).</p>
+        <ul>
+            <li><input type="number" name="stretnutie_zdielanie" min="1" max="5"> Stretnutie za účelom zdieľania času, informácií, skúseností</li>
+            <li><input type="number" name="relax" min="1" max="5"> Oddych a relax</li>
+            <li><input type="number" name="klima" min="1" max="5"> Telo / klíma miesta</li>
+            <li><input type="number" name="kultura" min="1" max="5"> Kultúra mesta</li>
+            <li><input type="number" name="nocny_zivot" min="1" max="5"> Kluby, party, nočný život</li>
+            <li><input type="number" name="strip" min="1" max="5"> Strip, baby</li>
+            <li><input type="number" name="zranica" min="1" max="5"> Zranica</li>
+            <li><input type="number" name="alkohol" min="1" max="5"> Piatika / alkohol</li>
+            <li><input type="number" name="hry" min="1" max="5"> Spoločenské hry (napr. karty)</li>
+            <li><input type="number" name="more" min="1" max="5"> More</li>
+            <li><input type="number" name="sport" min="1" max="5"> Športové podujatia</li>
+            <li><input type="text" name="ine" placeholder="Iné zážitky (uveď)"></li>
+        </ul>
+
+        <!-- Otázka 2 -->
+        <h2>2. Akú lokalitu preferuješ?</h2>
+        <p>Označ prioritne svoje preferencie číslami od 1 (najdôležitejšie) po 5 (najmenej dôležité).</p>
+        <ul>
+            <li><input type="number" name="vieden" min="1" max="5"> Viedeň</li>
+            <li><input type="number" name="varsava" min="1" max="5"> Varšava</li>
+            <li><input type="number" name="mazure" min="1" max="5"> Mazure</li>
+            <li><input type="number" name="tirana" min="1" max="5"> Tirana (Albánsko)</li>
+            <li><input type="number" name="spanielsko" min="1" max="5"> Španielsko (Ibiza, Malorka)</li>
+        </ul>
+
+        <!-- Otázka 3 -->
+        <h2>3. Na koľko dní by si ideálne preferoval ísť?</h2>
+        <ul>
+            <li><input type="radio" name="dni" value="2"> 2 dni</li>
+            <li><input type="radio" name="dni" value="3"> 3 dni</li>
+            <li><input type="radio" name="dni" value="4"> 4 dni</li>
+            <li><input type="radio" name="dni" value="5"> 5 dní</li>
+            <li><input type="radio" name="dni" value="6"> 6 dní a viac</li>
+        </ul>
+
+        <!-- Otázka 4 -->
+        <h2>4. Koľko by si bol ochotný do výletu investovať?</h2>
+        <ul>
+            <li><input type="radio" name="investicia" value="200"> 200 EUR</li>
+            <li><input type="radio" name="investicia" value="300"> 300 EUR</li>
+            <li><input type="radio" name="investicia" value="400"> 400 EUR</li>
+            <li><input type="radio" name="investicia" value="500"> 500 EUR</li>
+            <li><input type="radio" name="investicia" value="700"> 700 EUR</li>
+            <li><input type="radio" name="investicia" value="800"> 800 EUR a viac</li>
+        </ul>
+
+        <!-- Otázka 5 -->
+        <h2>5. Kedy by si najviac preferoval ísť?</h2>
+        <p>Označ prioritne svoje preferencie číslami od 1 (najdôležitejšie) po 5 (najmenej dôležité).</p>
+        <ul>
+            <li><input type="number" name="februar" min="1" max="5"> Február</li>
+            <li><input type="number" name="marec" min="1" max="5"> Marec</li>
+            <li><input type="number" name="april" min="1" max="5"> Apríl</li>
+            <li><input type="number" name="maj" min="1" max="5"> Máj</li>
+            <li><input type="number" name="jun" min="1" max="5"> Jún</li>
+            <li><input type="number" name="jul" min="1" max="5"> Júl</li>
+            <li><input type="number" name="august" min="1" max="5"> August</li>
+            <li><input type="number" name="september" min="1" max="5"> September</li>
+            <li><input type="number" name="oktober" min="1" max="5"> Október</li>
+            <li><input type="number" name="november" min="1" max="5"> November</li>
+            <li><input type="number" name="december" min="1" max="5"> December</li>
+        </ul>
+
+        <button type="submit">Odoslať</button>
+    </form>
+</body>
+</html>
